@@ -783,11 +783,6 @@ video {
   color: rgb(255 215 0 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(13 29 69 / var(--tw-text-opacity));
@@ -801,9 +796,4 @@ video {
 .text-silver {
   --tw-text-opacity: 1;
   color: rgb(192 192 192 / var(--tw-text-opacity));
-}
-
-.text-purple-700 {
-  --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity));
 }
