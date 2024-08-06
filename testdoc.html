@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Copy and paste these 3 lines to get code highlighting using language-java class, example at bottom -->
+    <link rel="stylesheet" href="/highlight/styles/default.css">
+    <script src="/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- Tailwind css -->
+    <link href="/src/output.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/6c14d65067.js" crossorigin="anonymous"></script>
+
+    <title></title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="flex flex-row w-full fixed h-16 items-center justify-between bg-primary">
+        <a href="https://falcons.github.io" class="m-2 px-4 py-2 rounded-lg"> <img class="w-8 h-8" src="/assets/images/logo_white.svg"></a>
+        <div class="flex">
+            <a href="/pages/robots.html" class="m-2 px-4 py-2 rounded-lg bg-secondary">Robots</a>
+            <a href="/pages/team.html" class="m-2 px-4 py-2 rounded-lg bg-secondary">Our Team</a>
+            <a href="https://falcons.github.io/docs" class="m-2 px-4 py-2 rounded-lg bg-secondary">Resources</a>
+            <a href="/pages/sponsors.html" class="m-2 px-4 py-2 rounded-lg bg-secondary">Sponsors</a>
+            <a href="/pages/about-frc.html" class="m-2 px-4 py-2 rounded-lg bg-secondary">About FRC</a>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="bg-index gap-4 h-screen w-full bg-cover section">
+        <h1 class="text-8xl font-extrabold text-primary mt-48" style="font-family: Montserrat;">5032 Documentation</h1>
+
+        <div class="flex flex-row justify-center w-full mt-2 h-52" style="border-color: blueviolet; border-width: 2px;">
+
+            <div class="flex flex-col items-center bg-translucent m-2 p-1 border-primary border-2 rounded-md" style="width: 15%;">
+                <h1 class="text-2xl font-bold text-secondary mb-1">Mechanical</h1>
+                <i class="fa-solid fa-gears fa-6x pt-6"></i>
+            </div>
+
+            <div class="flex flex-col items-center bg-translucent m-2 p-1 border-primary border-2 rounded-md" style="width: 15%;">
+                <h1 class="text-2xl font-bold text-secondary mb-1">Design</h1>
+                <i class="fa-solid fa-computer fa-6x pt-6"></i>
+            </div>
+
+            <div class="flex flex-col items-center bg-translucent m-2 p-1 border-primary border-2 rounded-md" style="width: 15%;">
+                <h1 class="text-2xl font-bold text-secondary mb-1">Business</h1>
+                <i class="fa-solid fa-book fa-6x pt-6"></i>
+            </div>
+
+            <div class="flex flex-col items-center bg-translucent m-2 p-1 border-primary border-2 rounded-md" onclick="window.location='./electrical/index.html'" style="width: 15%;">
+                <h1 class="text-2xl font-bold text-secondary mb-1">Electrical</h1>
+                <i class="fa-solid fa-bolt fa-6x pt-6"></i>
+            </div>
+
+            <div class="flex flex-col items-center bg-translucent m-2 p-1 border-primary border-2 rounded-md" onclick="window.location='./programming/index.html'" style="width: 15%;">
+                <h1 class="text-2xl font-bold text-secondary mb-1">Programming</h1>
+                <i class="fa-solid fa-code fa-6x pt-6"></i>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function link() {
+            window.location="./programming/index.html";
+        }
+    </script>
+</body>
+</html>
